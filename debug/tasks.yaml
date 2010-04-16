@@ -1,0 +1,10 @@
+- title: task 0
+  interval: 30
+  interval_type: 0
+  command: c:\dev\shup\backup.bat
+  params: $timestamp$
+- title: task 1
+  interval: 60
+  interval_type: 1
+  command: c:\dev\wifight\backup.bat
+  params: $timestamp$ wifight!
